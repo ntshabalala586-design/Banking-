@@ -19,7 +19,7 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build AAB
-        run: ./gradlew bundleRelease
+        run: ./gradlew bundleDebug
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
