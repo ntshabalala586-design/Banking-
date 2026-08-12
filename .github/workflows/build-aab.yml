@@ -26,3 +26,4 @@ jobs:
         with:
           name: app-debug.aab
           path: app/build/outputs/bundle/debug/*.aab
+          
